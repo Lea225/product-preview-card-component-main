@@ -10,9 +10,7 @@ body{
     display: flex;
     font-size: 14px;
     font-family: 'Montserrat';
-    margin: auto;
     text-align: left;
-    margin: 5rem 1.5rem;
 }
 .text{
     border-radius: 0 10px 10px 0;
@@ -34,7 +32,6 @@ p{
     background-color: hsl(212, 21%, 14%);
 }
 .btn{
-    padding: 10px 80px;
     background-color: hsl(158, 36%, 37%);
     border-radius: 10px;
     color: hsl(0, 0%, 100%);
@@ -64,7 +61,7 @@ img{
     .card {
       flex-direction: column;
       width: 80%;
-      margin: 1.5rem auto;
+      margin: auto;
     }
     .main-img {
       border-radius: 10px 10px 0 0;
@@ -74,7 +71,10 @@ img{
         width: 100%;
     }
     .text-p{
-        width: 75%;
+        width: 80%;
+   }
+   .btn{
+    padding: 10px 100px;
    }
     .btn-div{
         margin-bottom: 10%;
@@ -86,12 +86,17 @@ img{
   }
   @media screen and (min-width:997px) {
     .card{
-        margin: 5rem 2.5rem;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    span{
+        margin-left: 20%;
     }
     h1{
-        width: 75%;
+        width: auto;
     }
     .text-p{
+        margin-bottom: 0;
         width: 50% auto;
    }
     .main-img{
@@ -101,9 +106,10 @@ img{
         height: 70vh;
         width: 30%;
     }
+    .btn{
+        padding: 10px 50px;
+    }
     .btn-div{
-        justify-self: end;
+        align-items: end;
     }
     }
-  
-  
